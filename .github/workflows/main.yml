@@ -28,6 +28,11 @@ jobs:
           channel: 'stable'
           cache: true
 
+      - name: clran !!!!!!
+        run: flutter clean
+      # 4. Загружаем зависимости
+      - name: create !!!!!!
+        run: flutter create .
       # 4. Загружаем зависимости
       - name: Install dependencies
         run: flutter pub get
